@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mini-twitter1/static/css/main.a3cb2928.chunk.css",
+    "main.js": "/mini-twitter1/static/js/main.770b8dc9.chunk.js",
+    "main.js.map": "/mini-twitter1/static/js/main.770b8dc9.chunk.js.map",
+    "runtime-main.js": "/mini-twitter1/static/js/runtime-main.e4ac5923.js",
+    "runtime-main.js.map": "/mini-twitter1/static/js/runtime-main.e4ac5923.js.map",
+    "static/js/2.a1e5070c.chunk.js": "/mini-twitter1/static/js/2.a1e5070c.chunk.js",
+    "static/js/2.a1e5070c.chunk.js.map": "/mini-twitter1/static/js/2.a1e5070c.chunk.js.map",
+    "static/js/3.1c15c14e.chunk.js": "/mini-twitter1/static/js/3.1c15c14e.chunk.js",
+    "static/js/3.1c15c14e.chunk.js.map": "/mini-twitter1/static/js/3.1c15c14e.chunk.js.map",
+    "index.html": "/mini-twitter1/index.html",
+    "static/css/main.a3cb2928.chunk.css.map": "/mini-twitter1/static/css/main.a3cb2928.chunk.css.map",
+    "static/js/2.a1e5070c.chunk.js.LICENSE.txt": "/mini-twitter1/static/js/2.a1e5070c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4ac5923.js",
+    "static/js/2.a1e5070c.chunk.js",
+    "static/css/main.a3cb2928.chunk.css",
+    "static/js/main.770b8dc9.chunk.js"
+  ]
+}
