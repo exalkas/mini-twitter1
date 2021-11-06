@@ -7,7 +7,7 @@ export async function MessagesApi(){ // to fetch all messages
     
     const response = await axios.get(url);
     
-    //  console.log('response.data');
+    console.log('response.data');
      
      return response.data;
     }

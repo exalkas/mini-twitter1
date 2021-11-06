@@ -13,43 +13,53 @@ code {
     monospace;
 }
 
-.login{
+.body {
   display: flex;
-}
-.loginSideBar{
-  /* height: 100%; */
-  width: 50%;
-  /* background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png'); */
+  justify-content: space-between;
+
 }
 
-.loginComponents{
+.main-body h1 {
+  margin: 0;
+  font-size: 24pt;
+}
+
+.searchBar {
+ height: 30px;
+ width: 200px;
+ margin-left: 10px;
+ border: 0;
+}
+
+.searchField {
+  border: lightslategrey solid 1.5pt;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.userInfo {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+  border: lightslategrey solid 1.5pt;
+  font-size: 16pt;
+  border-radius: 5px;
+  width: 15vw;
   align-items: center;
-  align-content: center;
-  padding-left: 4rem;
+  padding: 10px;
+  height: 200px;
 }
 
-.LoginInput {
- margin: 10px;
- width: 200px;
- border-radius: 5px;
+.body{
+margin: 20px;
 }
 
-.LoginBtn {
- margin: 10px;
- background-color: transparent;
- border: 1px solid darkcyan;
- border-radius: 15px;
- width: 75px;
- height: 25px;
- font-size: 12px;
- font-weight: bold;
+.sideBody {
+  display: flex;
+  padding: 20px;
 }
 
-.LoginBtn:hover{
-  background-color: darkcyan;
-  color: beige;
+.messageBody {
+  margin: 20px;
+  width: 60vw;
+  font-size: 20pt;
 }
