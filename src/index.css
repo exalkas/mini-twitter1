@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.body {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.main-body h1 {
+  margin: 0;
+  font-size: 24pt;
+}
+
+.searchBar {
+ height: 30px;
+ width: 200px;
+ margin-left: 10px;
+ border: 0;
+}
+
+.searchField {
+  border: lightslategrey solid 1.5pt;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  border: lightslategrey solid 1.5pt;
+  font-size: 16pt;
+  border-radius: 5px;
+  width: 15vw;
+  align-items: center;
+  padding: 10px;
+  height: 200px;
+}
+
+.body{
+margin: 20px;
+}
+
+.sideBody {
+  display: flex;
+  padding: 20px;
+}
+
+.messageBody {
+  margin: 20px;
+  width: 60vw;
+  font-size: 20pt;
+}

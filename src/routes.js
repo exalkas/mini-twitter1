@@ -1,11 +1,11 @@
 import { Switch, Route } from "react-router";
-import App from "./App";
 import MainLayout from "./components/layout/MainLayout";
 import MessagePage from './components/pages/MessagePage';
 import UsersPage from './components/pages/UsersPage';
 import AddMessage from './components/pages/AddMessage';
 import Login from './components/pages/Login';
 import Register from "./components/pages/Register";
+import Home from "./components/pages/Home";
 
 /* 
 message page
@@ -29,11 +29,11 @@ export default function Routes() {
             
             <Route path="/" exact >
                 <MainLayout>
-                    <Route component={App}/>
+                    <Route component={Home}/>
                 </MainLayout>
               </Route>
 
-            <Route path="/MessagePage" exact >
+        { /*   <Route path="/MessagePage" exact >
                 <MainLayout>
                     <Route component={MessagePage}/>
                 </MainLayout>
@@ -62,7 +62,7 @@ export default function Routes() {
                 <MainLayout>
                     <Route component={Register}/>
                 </MainLayout>
-              </Route>
+              </Route> 
 
             {/* <Route path="/Author/:id" exact >
                 <MainLayout>
