@@ -62,3 +62,8 @@ margin: 20px;
   width: 60vw;
   font-size: 20pt;
 }
+
+navLink {
+  text-decoration: none;
+  color: black;
+}
