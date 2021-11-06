@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.body {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.searchBar {
+ height: 30px;
+ width: 200px;
+ margin-left: 10px;
+ border: 0;
+}
+
+.searchField {
+  border: lightslategrey solid;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 5px;
+}

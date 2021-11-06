@@ -11,23 +11,19 @@ wrap main component */
 const Header = () => {
   return (
     <React.Fragment>
+      <div className="body">
       <div className="nav-link">
-      Mini Twitter
-            <NavLink className='navLinkText' to="/MessagePage" activeClassName="active">
-            Message |
-            </NavLink>
-            <NavLink className='navLinkText' to="/UsersPage" activeClassName="active">
-            User |
-            </NavLink>
-            <NavLink className='navLinkText' to="/AddMessage" activeClassName="active">
-            Add Message |
-            </NavLink>
-            <NavLink className='navLinkText' to="/Login" activeClassName="active">
-            Login |
-            </NavLink>
-            <NavLink className='navLinkText' to="/Register" activeClassName="active">
-            Register |
-            </NavLink>         
+      <img src="https://cdn.pixabay.com/photo/2014/04/03/11/53/twitter-312464_960_720.png" alt="Twitter Bird" style={{width: 50, margin: 20}}/>    
+      </div>
+      <div className="main-body">
+        <h1>Mini-Twitter</h1>
+      </div>
+      <div className="sidebar">
+      <div className="searchField">
+      <img src="https://cdn.pixabay.com/photo/2017/10/08/19/55/magnifying-glass-2831367_960_720.png" style={{width: 30}}/>
+      <input type="text" className="searchBar"/>
+      </div>
+      </div>
       </div>
     </React.Fragment>
   );
