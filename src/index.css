@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.login{
+  display: flex;
+}
+.loginSideBar{
+  /* height: 100%; */
+  width: 50%;
+  /* background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png'); */
+}
+
+.loginComponents{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 4rem;
+}
+
+.LoginInput {
+ margin: 10px;
+ width: 200px;
+ border-radius: 5px;
+}
+
+.LoginBtn {
+ margin: 10px;
+ background-color: transparent;
+ border: 1px solid darkcyan;
+ border-radius: 15px;
+ width: 75px;
+ height: 25px;
+ font-size: 12px;
+ font-weight: bold;
+}
+
+.LoginBtn:hover{
+  background-color: darkcyan;
+  color: beige;
 }
