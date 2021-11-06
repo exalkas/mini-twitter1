@@ -16,8 +16,8 @@ export default function Home() {
     <div className="messageBody">
     {
         message?.map((element, id) => (
-            <div key={id}>
-                <h4><NavLink to={`/MessagePage/${element?.message_id}`}>{element?.message}</NavLink></h4>
+            <div key={id} className="NavLink">
+                <h4><NavLink to={`/MessagePage/${element?.message_id}`} className="NavLink">{element?.message}</NavLink></h4>
             </div>
         ))
     }

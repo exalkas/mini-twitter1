@@ -16,7 +16,7 @@ const Header = () => {
       <img src="https://cdn.pixabay.com/photo/2014/04/03/11/53/twitter-312464_960_720.png" alt="Twitter Bird" style={{width: 50}}/>    
       </div>
       <div className="main-body">
-        <h1>Mini-Twitter</h1>
+        <h1><NavLink to="/" className="NavLink">Mini-Twitter</NavLink></h1>
       </div>
       <div className="sidebar">
       <div className="searchField">
