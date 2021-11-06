@@ -33,7 +33,7 @@ export default function Routes() {
                 </MainLayout>
               </Route>
 
-        { /*   <Route path="/MessagePage" exact >
+         <Route path="/MessagePage/:id" exact >
                 <MainLayout>
                     <Route component={MessagePage}/>
                 </MainLayout>
@@ -68,7 +68,7 @@ export default function Routes() {
                 <MainLayout>
                     <Route component={Author}/>
                 </MainLayout>
-              </Route> */}
+                </Route> */}
         </Switch>
         )
 }

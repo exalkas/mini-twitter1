@@ -18,6 +18,8 @@ export default function Sidebar() {
         <div className="userInfo">
           <img src={`${user?.profile_picture}`} alt="profilepicture" style={{width: 100}}/>
           {user?.username}
+          <br />
+          {user?.email}
         </div>
     )
 }

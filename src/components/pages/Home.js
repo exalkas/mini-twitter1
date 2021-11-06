@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {NavLink} from 'react-router-dom'
 import {MessagesApi} from "../api/api";
 
 export default function Home() {
@@ -15,8 +16,8 @@ export default function Home() {
     <div className="messageBody">
     {
         message?.map((element, id) => (
-            <div key={id}>
-                {element?.message}
+            <div key={id} className="NavLink">
+                <h4><NavLink to={`/MessagePage/${element?.message_id}`} className="NavLink">{element?.message}</NavLink></h4>
             </div>
         ))
     }

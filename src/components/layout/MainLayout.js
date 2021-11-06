@@ -12,7 +12,7 @@ export default function MainLayout(props) {
             <Header />
             <div className="sideBody">
             <Sidebar /> 
-            <Home />
+            {props.children}
             </div>
         </div>
     </div>
